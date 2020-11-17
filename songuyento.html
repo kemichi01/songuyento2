@@ -8,11 +8,9 @@
    if (N < 2){
        console.log("Nhập lại N đi e");
    } else {
-           let i = 2;
            let m = Math.sqrt(N);
-           for (i = 2; i <= m; i++) {
+           for (let i = 2; i <= m; i++) {
                if(N % i == 0) {
-                   break;
                    console.log("N khong phai so nguyen to");
                } else
            console.log("N là so nguyen to");
